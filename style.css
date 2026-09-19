@@ -2,8 +2,8 @@
 .nav nav a:hover{color:#2f7f78}
 .btn{transition:background-color .2s ease,border-color .2s ease,color .2s ease,transform .2s ease}
 header .nav nav a:hover{color:#2f7f78}
-.buttons .btn:hover{background:#edf7f5;border-color:#2f7f78;color:#246860;transform:translateY(-1px)}
-.buttons .btn.dark:hover{background:#245f5a;border-color:#245f5a;color:#fff}
+.buttons .btn:hover,.project-actions .btn:hover{background:#edf7f5;border-color:#2f7f78;color:#246860;transform:translateY(-1px)}
+.buttons .btn.dark:hover,.project-actions .btn.dark:hover{background:#245f5a;border-color:#245f5a;color:#fff}
 .profile-photo{position:relative;z-index:1;cursor:zoom-in;transition:transform .25s ease,object-fit .25s ease,border-radius .25s ease,box-shadow .25s ease}
 .profile-photo:hover{transform:scale(3);object-fit:contain;border-radius:14px;background:#fff;box-shadow:0 12px 30px #19233735;cursor:zoom-out}
 .codeforces-link{color:#2f7f78;font-weight:700;transition:color .2s ease}
